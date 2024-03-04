@@ -74,5 +74,3 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-app.use('/.netlify/functions/api',router);
-module.exports.handler = serverless(app);
